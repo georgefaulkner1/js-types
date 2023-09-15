@@ -1,4 +1,4 @@
-# js-types
+# js-types-safety
 
 js-types is a ES6 JavaScript library to implement types to a variable enabling type safety.
 Simple library that makes types easy.
@@ -8,12 +8,12 @@ Simple library that makes types easy.
 Use the package manager npm to install js-types.
 
 ```bash
-npm i js-types
+npm i@georgefaulkner1/js-type-safety
 ```
 ## Usage
 
 ```javascript
-import Types from "js-types";
+import Types from "@georgefaulkner1/js-type-safety";
 
 // create type specified variable. Supported types: String, Number, Boolean, Array, Object
 let name = new Types(String, "Jeff");
